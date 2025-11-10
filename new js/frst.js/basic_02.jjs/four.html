@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chai aur code</title>
+</head>
+<body>
+    <ul class="language">
+        <li>javascript</li>
+    </ul>
+    
+</body>
+<script>
+    function addlanguage(langName){
+        const li=document.createElement("li");
+        li.innerHTML=`${langName}`
+        document.querySelector('.language').
+        appendChild(li)
+
+    }
+    addlanguage("python")
+
+     function addoptlanguage(langName){
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild(li)
+      
+        document.querySelector('.language').
+        appendChild(li)
+
+    }
+    addlanguage("rust")
+
+    //ediiit
+    
+</script>
+</html>
