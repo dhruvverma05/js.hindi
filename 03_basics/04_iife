@@ -1,0 +1,10 @@
+// Immediately invoked Function Expression (IIFE)
+
+(function chai(){
+    console.log("db connected");
+})();
+
+( (name) => {
+    console.log(`dn connectd two ${name}`);
+    
+})(`dhruv`)
